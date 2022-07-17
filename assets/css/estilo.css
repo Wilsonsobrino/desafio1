@@ -1,0 +1,41 @@
+/*Reseteo basico a las opciones predeterminadas del navegador*/
+*{
+    margin: 20; 
+    padding: 0;
+    box-sizing: 0;
+}
+img{
+    border: 3px dashed tomato; /* aplicamos un borde para ver cuanto espacion ocupa la imagen en la página*/
+}
+.centrar{ /* centrando utilizando Flexbox*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* background: cornflowerblue;*/
+    padding: 20px;
+}
+.centrar2{
+    width: 100%;
+    text-align: center;
+}
+body{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+/*estilo*/
+}
+p{
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;  
+}
+/*clase*/
+.color_Azul {
+    color: blue;
+}
+/* identificador*/
+#especial{
+    color: red;
+    font-size: 20px;
+}
